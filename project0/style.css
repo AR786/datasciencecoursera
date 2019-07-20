@@ -1,0 +1,67 @@
+h1 {
+  color: red;
+  text-align: center; }
+
+.ta1, table, th, td {
+  border: 1px solid black; }
+
+table {
+  border-collapse: collapse;
+  width: 100%; }
+
+th {
+  height: 50px;
+  background-color: white;
+  color: red; }
+
+td {
+  height: 30px; }
+
+th, td {
+  text-align: left;
+  padding: 15px; }
+
+#r1 {
+  font-family: Georgia; }
+
+.c1 {
+  background-color: red; }
+
+.c2 {
+  background-color: yellow; }
+
+.c3 {
+  background-color: green; }
+
+@media (min-width: 1000px) {
+  body {
+    background-color: #D3D3D3; }
+
+  #t1::before {
+    content: " Top 3 Richest Football Players"; } }
+@media (max-width: 999px) {
+  body {
+    background-color: lightblue; }
+
+  #t1::before {
+    content: "Richest "; } }
+a:link {
+  color: green; }
+
+a:visited {
+  color: red; }
+
+a:hover {
+  color: blue; }
+
+a:active {
+  color: blue; }
+
+tr {
+  font-size: 24px; }
+  tr .c1 {
+    font-style: italic; }
+  tr .c2, tr .c3 {
+    font-style: bold; }
+
+/*# sourceMappingURL=style.css.map */
